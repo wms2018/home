@@ -256,7 +256,7 @@ ul li {
       @media only screen and (min-width: 768px) {
         .main-header__left-section__logo {
           left: 50%;
-          transform: translateX(-50%);
+          transform: translateX(-60%);
           top: 15rem;
           height: 20rem; } }
   .main-header__right-section {
