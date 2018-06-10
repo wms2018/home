@@ -255,7 +255,9 @@ ul li {
           height: 5rem; } }
       @media only screen and (min-width: 768px) {
         .main-header__left-section__logo {
-          top: 20rem;
+          left: 50%;
+          transform: translateX(-50%);
+          top: 15rem;
           height: 20rem; } }
   .main-header__right-section {
     position: absolute;
