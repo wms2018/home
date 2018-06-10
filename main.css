@@ -7,7 +7,7 @@
 
 html {
   font-size: 50%; }
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 992px) {
     html {
       font-size: 62.5%; } }
 
@@ -37,15 +37,26 @@ input:-webkit-autofill {
 
 .title--main {
   font-family: "Raleway", sans-serif;
-  color: #be9841;
-  font-size: 4rem;
+  color: #362A25;
+  font-size: 3rem;
   letter-spacing: 0;
   display: block;
-  font-weight: 400;
+  font-weight: 300;
   animation: none;
-  padding: 1rem 0;
-  text-align: right;
+  padding: 0.5rem 0;
+  text-align: center;
   display: inline-block; }
+  @media only screen and (min-width: 768px) {
+    .title--main {
+      font-family: "Raleway", sans-serif;
+      color: #be9841;
+      font-size: 4rem;
+      letter-spacing: 0;
+      display: block;
+      font-weight: 300;
+      animation: none;
+      padding: 1rem 0;
+      text-align: right; } }
 
 .title--main--light {
   font-family: "Lato", sans-serif;
@@ -169,42 +180,48 @@ input:-webkit-autofill {
 ul li {
   padding: 1rem; }
 
-.navbar {
-  border-top: solid 8px #362A25;
-  background-color: transparent;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 8rem;
-  width: 100%;
-  text-align: right;
-  z-index: 100; }
-  .navbar ul li {
-    list-style: none;
-    display: inline-block;
-    color: #362A25;
+@media only screen and (min-width: 768px) {
+  .navbar {
+    border-top: solid 8px #362A25;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8rem;
+    width: 100%;
+    text-align: right;
+    z-index: 100; } }
+
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  color: #362A25;
+  margin: 0;
+  padding: 1.5rem 0; }
+  .navbar ul li a {
     margin: 0;
-    padding: 1.5rem 0; }
-    .navbar ul li a {
-      margin: 0;
-      padding: 4rem 2rem 2rem 2rem;
-      font-size: 1.5rem;
-      transition: all 0.2s;
-      border-radius: 0 0 5px 5px; }
-    .navbar ul li a:hover {
-      background-color: rgba(54, 42, 37, 0.5);
-      color: #fff; }
+    padding: 4rem 2rem 2rem 2rem;
+    font-size: 1.5rem;
+    transition: all 0.2s;
+    border-radius: 0 0 5px 5px; }
+  .navbar ul li a:hover {
+    background-color: rgba(54, 42, 37, 0.5);
+    color: #fff; }
+
+.navbar__close {
+  display: none; }
+  @media only screen and (min-width: 768px) {
+    .navbar__close {
+      display: block; } }
 
 .main-header {
   position: relative;
   width: 100%;
-  /*@media only screen and (min-width: $desktop) {
-        height: 70vh;
-    }*/ }
-  @media only screen and (min-width: 992px) {
+  height: 50vh; }
+  @media only screen and (min-width: 768px) {
     .main-header {
       height: 90vh; } }
-  @media only screen and (min-width: 992px) {
+  @media only screen and (min-width: 768px) {
     .main-header__hero-image {
       position: absolute;
       width: 100%;
@@ -217,34 +234,63 @@ ul li {
       background-attachment: fixed;
       background-image: url(e930d38092516466c49f332364debb5d.jpg); } }
   .main-header__left-section {
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 70vh;
-    width: 60%;
-    background-color: rgba(54, 42, 37, 0.4);
-    -webkit-clip-path: polygon(0 0, 80% 0, 100% 100%, 0 100%, 0 0);
-            clip-path: polygon(0 0, 80% 0, 100% 100%, 0 100%, 0 0); }
+    height: 60vh;
+    background-color: rgba(54, 42, 37, 0.4); }
+    @media only screen and (min-width: 768px) {
+      .main-header__left-section {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 65vh;
+        width: 60%;
+        background-color: rgba(54, 42, 37, 0.4);
+        -webkit-clip-path: polygon(0 0, 80% 0, 100% 100%, 0 100%, 0 0);
+                clip-path: polygon(0 0, 80% 0, 100% 100%, 0 100%, 0 0); } }
     .main-header__left-section__logo {
-      position: absolute;
-      left: 50%;
-      transform: translateX(-60%);
-      top: 20rem;
-      height: 20rem; }
+      position: absolute; }
+      @media only screen and (min-width: 0) {
+        .main-header__left-section__logo {
+          left: 3rem;
+          top: 2rem;
+          height: 5rem; } }
+      @media only screen and (min-width: 768px) {
+        .main-header__left-section__logo {
+          top: 20rem;
+          height: 20rem; } }
   .main-header__right-section {
     position: absolute;
-    left: 60%;
-    top: 15rem;
-    line-height: 6rem;
-    margin-right: 6rem;
-    padding-bottom: 2rem;
-    border-bottom: solid 2px #be9841; }
+    left: 50%;
+    top: 30%;
+    transform: translateX(-50%);
+    line-height: 4rem;
+    border-bottom: solid 1px #362A25;
+    padding-bottom: 2rem; }
+    .main-header__right-section h1::first-line {
+      font-weight: 900; }
+      @media only screen and (min-width: 768px) {
+        .main-header__right-section h1::first-line {
+          font-weight: 300; } }
+    @media only screen and (min-width: 768px) {
+      .main-header__right-section {
+        left: 60%;
+        top: 15rem;
+        line-height: 5rem;
+        margin-right: 6rem;
+        padding-bottom: 2rem;
+        border-bottom: solid 2px #be9841;
+        transform: translateX(0); } }
   .main-header__venue {
-    position: absolute;
-    height: 20vh;
-    top: 70vh;
     background: rgba(54, 42, 37, 0.8);
-    width: 100%; }
+    position: relative;
+    padding: 2rem 0; }
+    .main-header__venue .row .col-1-of-2 {
+      margin-bottom: 2rem !important; }
+    @media only screen and (min-width: 768px) {
+      .main-header__venue {
+        position: absolute;
+        height: 25vh;
+        top: 65vh;
+        width: 100%; } }
     .main-header__venue p {
       font-family: "Lato", sans-serif;
       color: rgba(255, 255, 255, 0.8);
@@ -289,10 +335,10 @@ ul li {
   margin: 0 auto; }
   .row:not(:last-child) {
     margin-bottom: 8rem; }
-    @media only screen and (max-width: 56.25em) {
+    @media only screen and (max-width: 48em) {
       .row:not(:last-child) {
         margin-bottom: 6rem; } }
-  @media only screen and (max-width: 56.25em) {
+  @media only screen and (max-width: 48em) {
     .row {
       max-width: 50rem;
       padding: 0 3rem; } }
@@ -304,11 +350,11 @@ ul li {
     float: left; }
     .row [class^="col-"]:not(:last-child) {
       margin-right: 6rem; }
-      @media only screen and (max-width: 56.25em) {
+      @media only screen and (max-width: 48em) {
         .row [class^="col-"]:not(:last-child) {
           margin-right: 0;
           margin-bottom: 6rem; } }
-    @media only screen and (max-width: 56.25em) {
+    @media only screen and (max-width: 48em) {
       .row [class^="col-"] {
         width: 100% !important; } }
   .row .col-1-of-2 {
