@@ -37,15 +37,16 @@ input:-webkit-autofill {
 
 .title--main {
   font-family: "Raleway", sans-serif;
-  color: #362A25;
+  color: #fff;
   font-size: 3rem;
   letter-spacing: 0;
   display: block;
   font-weight: 300;
   animation: none;
-  padding: 0.5rem 0;
+  padding: 2rem 0;
   text-align: center;
-  display: inline-block; }
+  display: inline-block;
+  border-bottom: solid 2px #be9841; }
   @media only screen and (min-width: 768px) {
     .title--main {
       font-family: "Raleway", sans-serif;
@@ -55,10 +56,10 @@ input:-webkit-autofill {
       display: block;
       font-weight: 300;
       animation: none;
-      padding: 1rem 0;
+      padding: 2rem 0;
       text-align: right; } }
 
-.title--main--light {
+.title--secondary {
   font-family: "Lato", sans-serif;
   color: #fff;
   font-size: 2rem;
@@ -69,21 +70,18 @@ input:-webkit-autofill {
   padding: 1rem 0;
   text-align: center;
   text-transform: uppercase;
-  word-spacing: .5rem;
-  letter-spacing: 0.3rem; }
-
-.title--sub {
-  margin: auto;
-  font-family: "Lato", sans-serif;
-  color: #362A25;
-  font-size: 2.5rem;
-  letter-spacing: 0;
-  display: block;
-  font-weight: 300;
-  animation: none;
-  padding: 1rem 0;
-  text-align: left;
-  font-style: italic; }
+  word-spacing: 0.5rem; }
+  @media only screen and (min-width: 768px) {
+    .title--secondary {
+      font-family: "Lato", sans-serif;
+      color: #be9841;
+      font-size: 2rem;
+      letter-spacing: 0;
+      display: block;
+      font-weight: 700;
+      animation: none;
+      padding: 1rem 0;
+      text-align: right; } }
 
 .title--tertiary {
   margin: auto;
@@ -217,22 +215,24 @@ ul li {
 .main-header {
   position: relative;
   width: 100%;
-  height: 50vh; }
+  height: 60vh; }
   @media only screen and (min-width: 768px) {
     .main-header {
       height: 90vh; } }
-  @media only screen and (min-width: 768px) {
-    .main-header__hero-image {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      transition: opacity 1s ease-in-out;
-      background-size: cover;
-      background-position: center;
-      -webkit-backface-visibility: hidden;
-              backface-visibility: hidden;
-      background-attachment: fixed;
-      background-image: url(e930d38092516466c49f332364debb5d.jpg); } }
+  .main-header__hero-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: opacity 1s ease-in-out;
+    background-size: cover;
+    background-position: center;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    background-attachment: fixed;
+    background-image: linear-gradient(120deg, rgba(54, 42, 37, 0.7) 0%, rgba(190, 152, 65, 0.5) 100%), url(94a9d21411c7a5c15ee8239951c0226b.jpg); }
+    @media only screen and (min-width: 768px) {
+      .main-header__hero-image {
+        background-image: url(e930d38092516466c49f332364debb5d.jpg); } }
   .main-header__left-section {
     height: 60vh;
     background-color: rgba(54, 42, 37, 0.4); }
@@ -264,9 +264,7 @@ ul li {
     left: 50%;
     top: 30%;
     transform: translateX(-50%);
-    line-height: 4rem;
-    border-bottom: solid 1px #362A25;
-    padding-bottom: 2rem; }
+    line-height: 4rem; }
     .main-header__right-section h1::first-line {
       font-weight: 900; }
       @media only screen and (min-width: 768px) {
@@ -278,8 +276,6 @@ ul li {
         top: 15rem;
         line-height: 5rem;
         margin-right: 6rem;
-        padding-bottom: 2rem;
-        border-bottom: solid 2px #be9841;
         transform: translateX(0); } }
   .main-header__venue {
     background: rgba(54, 42, 37, 0.8);
