@@ -17,7 +17,7 @@ body {
   font-size: 1.5rem;
   padding: 0;
   line-height: 3rem;
-  background: #f1ece9;
+  background: #f1f1ee;
   color: #022601;
   padding: 0;
   animation: body-animation 2s ease;
@@ -203,7 +203,7 @@ a:hover {
 
 .title--page-h3 {
   font-family: "Lato", sans-serif;
-  color: #f1ece9;
+  color: #f1f1ee;
   font-size: 1.5rem;
   letter-spacing: 0;
   display: block;
@@ -472,7 +472,7 @@ strong {
 
 .footer {
   position: relative;
-  color: #f1ece9;
+  color: #f1f1ee;
   font-weight: 300;
   font-size: 1.6rem;
   background: #022601;
@@ -681,12 +681,12 @@ strong {
 .schedule {
   margin: 0;
   padding: 4rem 1.5rem;
-  background: #a6a5a1; }
+  background: #fff; }
   @media only screen and (min-width: 1400px) {
     .schedule {
       padding: 5rem; } }
   .schedule__container {
-    background: #f1ece9;
+    background: #f1f1ee;
     margin-bottom: 0;
     padding: 4rem 2rem 8rem 2rem;
     box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2); }
@@ -769,7 +769,7 @@ strong {
     .speakers {
       padding: 5rem; } }
   .speakers__container {
-    background: #f1ece9;
+    background: #f1f1ee;
     margin-bottom: 5rem;
     padding: 4rem 2rem 8rem 2rem;
     box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2); }
@@ -846,12 +846,12 @@ strong {
       margin-left: 5rem; } }
 
 .topics {
-  background-color: #3e5902;
-  color: #f1ece9;
+  background-image: linear-gradient(135deg, #3e5902 50%, #022601 50%);
+  color: #f1f1ee;
   padding: 8rem 0 5rem 0; }
   .topics__content--1 {
     font-family: "Lato", sans-serif;
-    color: #f1ece9;
+    color: #f1f1ee;
     font-size: 2rem;
     letter-spacing: 0;
     display: block;
@@ -866,7 +866,7 @@ strong {
         padding-left: 5rem; } }
   .topics__content--2 {
     font-family: "Lato", sans-serif;
-    color: #f1ece9;
+    color: #f1f1ee;
     font-size: 2rem;
     letter-spacing: 0;
     display: block;
@@ -881,7 +881,7 @@ strong {
         padding-left: 7rem; } }
   .topics__content--3 {
     font-family: "Lato", sans-serif;
-    color: #f1ece9;
+    color: #f1f1ee;
     font-size: 2rem;
     letter-spacing: 0;
     display: block;
@@ -912,7 +912,7 @@ strong {
 
 .quotes {
   padding: 3rem 0;
-  background: #f1ece9; }
+  background: #f1f1ee; }
   .quotes__quote {
     font-family: "Lato", sans-serif;
     color: #022601;
@@ -997,7 +997,7 @@ strong {
         left: 65%; } }
 
 .packages {
-  background: #f1ece9;
+  background: #f1f1ee;
   width: 100%;
   padding: 8rem 0; }
   .packages ul li {
@@ -1142,7 +1142,7 @@ strong {
   content: '';
   position: absolute;
   width: 2px;
-  background-color: #022601;
+  background-color: rgba(2, 38, 1, 0.3);
   top: 0;
   bottom: 0;
   left: -5rem; }
@@ -1158,12 +1158,12 @@ strong {
   position: absolute;
   width: 2.5rem;
   height: 2.5rem;
-  background-color: #f1ece9;
+  background-color: #f1f1ee;
   top: 1.5rem;
   border-radius: 50%;
   z-index: 1;
   left: -6.1rem;
-  border: solid 2px #022601; }
+  border: solid 2px rgba(2, 38, 1, 0.3); }
 
 .after-break {
   padding-top: 7rem;
