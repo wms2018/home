@@ -433,7 +433,7 @@ strong {
         background: #333a42;
         color: #fff; }
         .c-navbar__mobile-menu ul li:hover a {
-          color: #fff; }
+          color: #fff !important; }
       .c-navbar__mobile-menu ul li a,
       .c-navbar__mobile-menu ul li a :link,
       .c-navbar__mobile-menu ul li a :visited,
