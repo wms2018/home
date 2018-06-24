@@ -94,6 +94,19 @@ a:hover {
       padding: 1rem 0;
       text-align: right; } }
 
+.title--secondary--center {
+  font-family: "Lato", sans-serif;
+  color: #fff;
+  font-size: 2rem;
+  letter-spacing: 0;
+  display: block;
+  font-weight: 700;
+  animation: none;
+  padding: 1rem 0;
+  text-align: center;
+  text-transform: uppercase;
+  word-spacing: 0.5rem; }
+
 .title--secondary--white {
   font-family: "Lato", sans-serif;
   color: #fff;
@@ -493,7 +506,7 @@ strong {
         top: 0;
         height: 70vh;
         width: 25%;
-        background-color: #022601; } }
+        background-color: #f2811d; } }
     .main-header__left-section__logo {
       position: absolute; }
       @media only screen and (min-width: 0) {
@@ -507,6 +520,11 @@ strong {
           transform: translateX(-50%);
           top: 15rem;
           height: 12rem; } }
+    .main-header__left-section .logo-title {
+      position: absolute;
+      top: 30rem;
+      left: 50%;
+      transform: translateX(-50%); }
   .main-header__right-section {
     position: absolute;
     left: 0;
@@ -565,7 +583,7 @@ strong {
         width: 100%;
         z-index: 50;
         background-color: transparent;
-        background-image: linear-gradient(135deg, #022601 50%, rgba(255, 255, 255, 0) 50%), linear-gradient(45deg, #022601 50%, rgba(255, 255, 255, 0) 50%);
+        background-image: linear-gradient(135deg, #f2811d 50%, rgba(255, 255, 255, 0) 50%), linear-gradient(45deg, #f2811d 50%, rgba(255, 255, 255, 0) 50%);
         background-repeat: repeat-y;
         background-position: top left, top left, bottom left, bottom left;
         background-size: 2rem 2rem, 2rem 2rem, 2rem 2rem, 2rem 2rem; } }
@@ -615,7 +633,7 @@ strong {
         .venue .c-row .col-1-of-2:last-child {
           padding: 3rem 6rem;
           position: relative;
-          background-color: #f2811d; }
+          background-color: #3e5902; }
           .venue .c-row .col-1-of-2:last-child .jagged-effect {
             position: absolute;
             top: 0;
@@ -746,7 +764,7 @@ strong {
 .speakers {
   margin: 0;
   padding: 4rem 1.5rem;
-  background: #022601; }
+  background: #3e5902; }
   @media only screen and (min-width: 1400px) {
     .speakers {
       padding: 5rem; } }
@@ -828,7 +846,7 @@ strong {
       margin-left: 5rem; } }
 
 .topics {
-  background-color: #022601;
+  background-color: #3e5902;
   color: #f1ece9;
   padding: 8rem 0 5rem 0; }
   .topics__content--1 {
@@ -998,7 +1016,7 @@ strong {
     z-index: 2;
     border-radius: 1rem;
     padding: 4rem;
-    background-color: #022601;
+    background-color: #3e5902;
     color: #fff;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18);
     text-align: right; }
@@ -1160,6 +1178,8 @@ strong {
       margin-top: 4rem; } }
 
 .icon-on-timeline {
+  position: relative;
+  z-index: 5;
   width: 12rem;
   margin-top: -7rem;
   margin-left: -3rem; }
