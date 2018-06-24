@@ -18,7 +18,7 @@ body {
   padding: 0;
   line-height: 3rem;
   background: #f1ece9;
-  color: #333a42;
+  color: #022601;
   padding: 0;
   animation: body-animation 2s ease;
   animation-fill-mode: forwards;
@@ -28,11 +28,11 @@ ul li {
   padding: 1rem; }
 
 ::-moz-selection {
-  background-color: #333a42;
+  background-color: #022601;
   color: #fff; }
 
 ::selection {
-  background-color: #333a42;
+  background-color: #022601;
   color: #fff; }
 
 input:-webkit-autofill {
@@ -132,7 +132,7 @@ a:hover {
 
 .title--page-h1 {
   font-family: "Lato", sans-serif;
-  color: #333a42;
+  color: #022601;
   font-size: 2rem;
   letter-spacing: 0;
   display: block;
@@ -144,7 +144,7 @@ a:hover {
 
 .title--page-h1--center {
   font-family: "Lato", sans-serif;
-  color: #333a42;
+  color: #022601;
   font-size: 2rem;
   letter-spacing: 0;
   display: block;
@@ -179,7 +179,7 @@ a:hover {
 
 .title--page-h1--light-center {
   font-family: "Lato", sans-serif;
-  color: #d7443f;
+  color: #f2811d;
   font-size: 2rem;
   letter-spacing: 0;
   display: block;
@@ -303,7 +303,7 @@ a:hover {
 
 .c-btn--white {
   background-color: #fff;
-  color: #333a42; }
+  color: #022601; }
   .c-btn--white::after {
     background-color: #fff; }
 
@@ -323,12 +323,12 @@ strong {
   font-weight: 700; }
 
 .link-regular {
-  color: #d7443f;
+  color: #f2811d;
   text-align: right;
   display: block; }
 
 .link-more {
-  color: #d7443f;
+  color: #f2811d;
   display: inline;
   font-size: 1.6rem; }
 
@@ -343,7 +343,7 @@ strong {
 
 .dropcap {
   font-size: 5rem;
-  color: #d7443f;
+  color: #f2811d;
   float: left;
   padding: 1.2rem 1rem 0.5rem 3rem;
   font-family: "Lato";
@@ -360,7 +360,7 @@ strong {
 }*/
 .c-navbar {
   transition: all 0.5s;
-  border-top: solid 6px #d7443f;
+  border-top: solid 6px #f2811d;
   background-color: transparent;
   position: absolute;
   top: 0;
@@ -373,9 +373,9 @@ strong {
     position: fixed;
     background-color: #fff; }
     .c-navbar__sticky a {
-      color: #333a42 !important; }
+      color: #022601 !important; }
       .c-navbar__sticky a:before {
-        background-color: #d7443f !important; }
+        background-color: #f2811d !important; }
   .c-navbar ul li {
     display: none; }
     @media only screen and (min-width: 768px) {
@@ -419,18 +419,18 @@ strong {
       .c-navbar__tab-menu-btn {
         display: block; } }
   .c-navbar__mobile-menu {
-    border-bottom: solid 2px #d7443f; }
+    border-bottom: solid 2px #f2811d; }
     .c-navbar__mobile-menu ul li {
       display: block;
       height: 6rem;
       width: 100%;
       text-align: left;
       padding: 1.5rem 3rem;
-      color: #333a42;
+      color: #022601;
       border-left: solid 2px #fff; }
       .c-navbar__mobile-menu ul li:hover {
-        border-left: solid 2px #d7443f;
-        background: #333a42;
+        border-left: solid 2px #f2811d;
+        background: #022601;
         color: #fff; }
         .c-navbar__mobile-menu ul li:hover a {
           color: #fff !important; }
@@ -439,7 +439,7 @@ strong {
       .c-navbar__mobile-menu ul li a :visited,
       .c-navbar__mobile-menu ul li a :active,
       .c-navbar__mobile-menu ul li a :focus {
-        color: #333a42; }
+        color: #022601; }
       .c-navbar__mobile-menu ul li a:before {
         display: none; }
     .c-navbar__mobile-menu ul {
@@ -455,14 +455,14 @@ strong {
   .c-navbar__mob-menu-btn-scroll .hamburger-inner,
   .c-navbar__mob-menu-btn-scroll .hamburger-inner::before,
   .c-navbar__mob-menu-btn-scroll .hamburger-inner::after {
-    background: #d7443f; }
+    background: #f2811d; }
 
 .footer {
   position: relative;
   color: #f1ece9;
   font-weight: 300;
   font-size: 1.6rem;
-  background: #333a42;
+  background: #022601;
   color: #fff; }
   .footer header {
     padding: 6rem; }
@@ -485,7 +485,7 @@ strong {
     .main-header {
       height: 70vh; } }
   .main-header__left-section {
-    background-color: rgba(51, 58, 66, 0.4); }
+    background-color: rgba(2, 38, 1, 0.4); }
     @media only screen and (min-width: 768px) {
       .main-header__left-section {
         position: absolute;
@@ -493,7 +493,7 @@ strong {
         top: 0;
         height: 70vh;
         width: 25%;
-        background-color: #333a42; } }
+        background-color: #022601; } }
     .main-header__left-section__logo {
       position: absolute; }
       @media only screen and (min-width: 0) {
@@ -524,10 +524,10 @@ strong {
       -webkit-backface-visibility: hidden;
               backface-visibility: hidden;
       background-attachment: fixed;
-      background-image: linear-gradient(120deg, rgba(51, 58, 66, 0.5) 0%, rgba(215, 68, 63, 0.5) 100%), url(1703167758da3aff8051a7c8b7a53885.jpg); }
+      background-image: linear-gradient(120deg, rgba(2, 38, 1, 0.5) 0%, rgba(242, 129, 29, 0.5) 100%), url(1703167758da3aff8051a7c8b7a53885.jpg); }
       @media only screen and (min-width: 768px) {
         .main-header__right-section__hero-image {
-          background-image: linear-gradient(120deg, rgba(51, 58, 66, 0) 0%, rgba(51, 58, 66, 0.6) 100%), url(292de5c967de185bdac15b769cf8e803.jpg); } }
+          background-image: linear-gradient(120deg, rgba(2, 38, 1, 0) 0%, rgba(2, 38, 1, 0.6) 100%), url(292de5c967de185bdac15b769cf8e803.jpg); } }
     .main-header__right-section__hero-image-1 {
       position: absolute !important;
       width: 100%;
@@ -538,10 +538,10 @@ strong {
       -webkit-backface-visibility: hidden;
               backface-visibility: hidden;
       background-attachment: fixed;
-      background-image: linear-gradient(120deg, rgba(51, 58, 66, 0.5) 0%, rgba(215, 68, 63, 0.5) 100%), url(a0f8007cbaa363bd4e5724691d3c9391.jpg); }
+      background-image: linear-gradient(120deg, rgba(2, 38, 1, 0.5) 0%, rgba(242, 129, 29, 0.5) 100%), url(a0f8007cbaa363bd4e5724691d3c9391.jpg); }
       @media only screen and (min-width: 768px) {
         .main-header__right-section__hero-image-1 {
-          background-image: linear-gradient(120deg, rgba(51, 58, 66, 0) 0%, rgba(51, 58, 66, 0.6) 100%), url(22ca22bf1d90345a5b3022028441a77f.jpg); } }
+          background-image: linear-gradient(120deg, rgba(2, 38, 1, 0) 0%, rgba(2, 38, 1, 0.6) 100%), url(22ca22bf1d90345a5b3022028441a77f.jpg); } }
     .main-header__right-section__hero-image-2 {
       position: absolute !important;
       width: 100%;
@@ -552,10 +552,10 @@ strong {
       -webkit-backface-visibility: hidden;
               backface-visibility: hidden;
       background-attachment: fixed;
-      background-image: linear-gradient(120deg, rgba(51, 58, 66, 0.5) 0%, rgba(215, 68, 63, 0.5) 100%), url(b2622b80f1a7b8a1c070a12e443b1b30.jpg); }
+      background-image: linear-gradient(120deg, rgba(2, 38, 1, 0.5) 0%, rgba(242, 129, 29, 0.5) 100%), url(b2622b80f1a7b8a1c070a12e443b1b30.jpg); }
       @media only screen and (min-width: 768px) {
         .main-header__right-section__hero-image-2 {
-          background-image: linear-gradient(120deg, rgba(51, 58, 66, 0) 0%, rgba(51, 58, 66, 0.6) 100%), url(610c9750c97728172750c12623afe0aa.jpg); } }
+          background-image: linear-gradient(120deg, rgba(2, 38, 1, 0) 0%, rgba(2, 38, 1, 0.6) 100%), url(610c9750c97728172750c12623afe0aa.jpg); } }
     @media only screen and (min-width: 768px) {
       .main-header__right-section__jagged-effect {
         position: absolute;
@@ -565,7 +565,7 @@ strong {
         width: 100%;
         z-index: 50;
         background-color: transparent;
-        background-image: linear-gradient(135deg, #333a42 50%, rgba(255, 255, 255, 0) 50%), linear-gradient(45deg, #333a42 50%, rgba(255, 255, 255, 0) 50%);
+        background-image: linear-gradient(135deg, #022601 50%, rgba(255, 255, 255, 0) 50%), linear-gradient(45deg, #022601 50%, rgba(255, 255, 255, 0) 50%);
         background-repeat: repeat-y;
         background-position: top left, top left, bottom left, bottom left;
         background-size: 2rem 2rem, 2rem 2rem, 2rem 2rem, 2rem 2rem; } }
@@ -615,7 +615,7 @@ strong {
         .venue .c-row .col-1-of-2:last-child {
           padding: 3rem 6rem;
           position: relative;
-          background-color: #a6a5a1; }
+          background-color: #f2811d; }
           .venue .c-row .col-1-of-2:last-child .jagged-effect {
             position: absolute;
             top: 0;
@@ -635,7 +635,7 @@ strong {
       width: 100%; } }
   .venue__header {
     font-family: "Lato", sans-serif;
-    color: #333a42;
+    color: #022601;
     font-size: 1.5rem;
     letter-spacing: 0.2rem;
     display: block;
@@ -646,7 +646,7 @@ strong {
     text-transform: uppercase; }
   .venue p {
     font-family: "Lato", sans-serif;
-    color: #333a42;
+    color: #022601;
     font-size: 1.5rem;
     letter-spacing: 0;
     display: block;
@@ -674,7 +674,7 @@ strong {
     box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2); }
     .schedule__container__header {
       font-family: "Lato", sans-serif;
-      color: #d7443f;
+      color: #f2811d;
       font-size: 1.5rem;
       letter-spacing: 0;
       display: block;
@@ -686,7 +686,7 @@ strong {
       letter-spacing: 0.3rem; }
     .schedule__container__time {
       font-family: "Lato", sans-serif;
-      color: #333a42;
+      color: #022601;
       font-size: 1.5rem;
       letter-spacing: 0;
       display: block;
@@ -696,7 +696,7 @@ strong {
       text-align: left; }
     .schedule__container__session {
       font-family: "Lato", sans-serif;
-      color: #333a42;
+      color: #022601;
       font-size: 1.5rem;
       letter-spacing: 0;
       display: block;
@@ -704,12 +704,12 @@ strong {
       animation: none;
       padding: 0 0;
       text-align: left;
-      border-bottom: solid 1px #333a42;
+      border-bottom: solid 1px #022601;
       display: inline-block;
       padding-bottom: 1.5rem; }
     .schedule__container__speaker {
       font-family: "Lato", sans-serif;
-      color: #333a42;
+      color: #022601;
       font-size: 1.5rem;
       letter-spacing: 0;
       display: block;
@@ -720,7 +720,7 @@ strong {
       padding-top: 1.5rem; }
     .schedule__container__credentials {
       font-family: "Lato", sans-serif;
-      color: rgba(51, 58, 66, 0.6);
+      color: rgba(2, 38, 1, 0.6);
       font-size: 1.5rem;
       letter-spacing: 0;
       display: block;
@@ -746,7 +746,7 @@ strong {
 .speakers {
   margin: 0;
   padding: 4rem 1.5rem;
-  background: #333a42; }
+  background: #022601; }
   @media only screen and (min-width: 1400px) {
     .speakers {
       padding: 5rem; } }
@@ -759,7 +759,7 @@ strong {
       margin: auto; }
       .speakers__container__speaker-list__header {
         font-family: "Lato", sans-serif;
-        color: #d7443f;
+        color: #f2811d;
         font-size: 1.5rem;
         letter-spacing: 0;
         display: block;
@@ -785,7 +785,7 @@ strong {
     height: 30rem; }
   .speaker h2 {
     font-family: "Lato", sans-serif;
-    color: #333a42;
+    color: #022601;
     font-size: 2rem;
     letter-spacing: 0;
     display: block;
@@ -798,7 +798,7 @@ strong {
         padding-left: 5rem; } }
   .speaker h3 {
     font-family: "Lato", sans-serif;
-    color: rgba(51, 58, 66, 0.6);
+    color: rgba(2, 38, 1, 0.6);
     font-size: 2rem;
     letter-spacing: 0;
     display: block;
@@ -811,7 +811,7 @@ strong {
         padding-left: 5rem; } }
   .speaker p {
     font-family: "Lato", sans-serif;
-    color: #333a42;
+    color: #022601;
     font-size: 1.6rem;
     letter-spacing: 0;
     display: block;
@@ -828,7 +828,7 @@ strong {
       margin-left: 5rem; } }
 
 .topics {
-  background-color: #333a42;
+  background-color: #022601;
   color: #f1ece9;
   padding: 8rem 0 5rem 0; }
   .topics__content--1 {
@@ -897,7 +897,7 @@ strong {
   background: #f1ece9; }
   .quotes__quote {
     font-family: "Lato", sans-serif;
-    color: #333a42;
+    color: #022601;
     font-size: 3rem;
     letter-spacing: 0;
     display: block;
@@ -921,9 +921,9 @@ strong {
   .quotes #quote-carousel {
     margin: 5rem; }
   .quotes .carousel-indicators li {
-    background-color: rgba(51, 58, 66, 0.2); }
+    background-color: rgba(2, 38, 1, 0.2); }
   .quotes .carousel-indicators .active {
-    background-color: rgba(51, 58, 66, 0.6); }
+    background-color: rgba(2, 38, 1, 0.6); }
 
 .sponsor-header {
   position: relative;
@@ -950,10 +950,10 @@ strong {
     -webkit-backface-visibility: hidden;
             backface-visibility: hidden;
     background-attachment: fixed;
-    background-image: linear-gradient(120deg, rgba(51, 58, 66, 0.7) 0%, rgba(51, 58, 66, 0.5) 100%), url(1703167758da3aff8051a7c8b7a53885.jpg); }
+    background-image: linear-gradient(120deg, rgba(2, 38, 1, 0.7) 0%, rgba(2, 38, 1, 0.5) 100%), url(1703167758da3aff8051a7c8b7a53885.jpg); }
     @media only screen and (min-width: 768px) {
       .sponsor-header__hero-image {
-        background-image: linear-gradient(120deg, rgba(51, 58, 66, 0.5) 0%, rgba(51, 58, 66, 0.5) 100%), url(292de5c967de185bdac15b769cf8e803.jpg); } }
+        background-image: linear-gradient(120deg, rgba(2, 38, 1, 0.5) 0%, rgba(2, 38, 1, 0.5) 100%), url(292de5c967de185bdac15b769cf8e803.jpg); } }
   .sponsor-header__title {
     position: absolute;
     left: 50%;
@@ -998,7 +998,7 @@ strong {
     z-index: 2;
     border-radius: 1rem;
     padding: 4rem;
-    background-color: #333a42;
+    background-color: #022601;
     color: #fff;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18);
     text-align: right; }
@@ -1076,7 +1076,7 @@ strong {
       letter-spacing: 0.3rem;
       word-spacing: 0.5rem; }
   .packages__features {
-    border-top: solid 6px #d7443f;
+    border-top: solid 6px #f2811d;
     border-radius: 1rem;
     position: relative;
     padding: 15rem 5rem 5rem 5rem;
@@ -1091,7 +1091,7 @@ strong {
         padding: 15rem 5rem 5rem 10rem; } }
     .packages__features__heading {
       font-family: "Lato", sans-serif;
-      color: #d7443f;
+      color: #f2811d;
       font-size: 2rem;
       letter-spacing: 0;
       display: block;
@@ -1103,7 +1103,7 @@ strong {
       text-transform: uppercase;
       letter-spacing: 0.5rem;
       word-spacing: 1rem;
-      border-bottom: solid #d7443f 2px;
+      border-bottom: solid #f2811d 2px;
       padding-bottom: 2rem;
       margin-bottom: 2rem; }
     .packages__features ul {
@@ -1124,7 +1124,7 @@ strong {
   content: '';
   position: absolute;
   width: 2px;
-  background-color: #333a42;
+  background-color: #022601;
   top: 0;
   bottom: 0;
   left: -5rem; }
@@ -1145,7 +1145,7 @@ strong {
   border-radius: 50%;
   z-index: 1;
   left: -6.1rem;
-  border: solid 2px #333a42; }
+  border: solid 2px #022601; }
 
 .after-break {
   padding-top: 7rem;
