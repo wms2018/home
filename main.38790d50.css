@@ -774,8 +774,11 @@ strong {
           max-width: 80%; } }
 
 .speaker {
-  padding: 4rem 0 5rem 0;
+  padding: 4rem 2rem 2rem rem;
   border-radius: 10px; }
+  @media only screen and (min-width: 768px) {
+    .speaker {
+      padding: 4rem 0 5rem 0; } }
   .speaker figure > img {
     width: 100%;
     max-width: 30rem;
@@ -1111,7 +1114,7 @@ strong {
 
 .timeline {
   position: relative;
-  margin: 4rem 8rem; }
+  margin: 4rem 1rem 4rem 8rem; }
   @media only screen and (min-width: 768px) {
     .timeline {
       max-width: 100%;
