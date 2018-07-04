@@ -992,18 +992,27 @@ strong {
     background-color: rgba(2, 38, 1, 0.6); }
 
 .award-quotes {
-  padding: 5rem;
+  padding: 5rem 3rem 9rem 3rem;
   background: #f9faf9;
-  line-height: 5rem;
+  line-height: 3rem;
   max-width: 95%;
-  margin: auto; }
+  margin: auto;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-direction: column;
+      flex-direction: column; }
   @media only screen and (min-width: 768px) {
     .award-quotes {
       max-width: 70%; } }
+  .award-quotes__icon {
+    margin: 2rem auto;
+    height: 10rem; }
   .award-quotes__quote {
     font-family: "Lato", sans-serif;
     color: #022601;
-    font-size: 3rem;
+    font-size: 2rem;
     letter-spacing: 0;
     display: block;
     font-weight: 300;
@@ -1011,6 +1020,7 @@ strong {
     padding: 2rem 0;
     text-align: center; }
   .award-quotes__author {
+    margin-top: 3rem;
     font-family: "Lato", sans-serif;
     color: #022601;
     font-size: 2rem;
@@ -1023,8 +1033,17 @@ strong {
 
 .award-def {
   background-color: #f2811d;
-  padding: 5rem;
-  line-height: 3rem; }
+  padding: 5rem 3rem 9rem 3rem;
+  line-height: 3rem;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-direction: column;
+      flex-direction: column; }
+  .award-def__icon {
+    margin: 2rem auto;
+    height: 10rem; }
   .award-def__definition {
     font-family: "Lato", sans-serif;
     color: #f9faf9;
@@ -1043,10 +1062,7 @@ strong {
 
 .award-qualities {
   background-color: #3e5902;
-  padding: 5rem 1rem; }
-  @media only screen and (min-width: 768px) {
-    .award-qualities {
-      padding: 5rem; } }
+  padding: 7rem 1rem; }
   .award-qualities ul li {
     font-family: "Lato", sans-serif;
     color: #fff;
@@ -1064,7 +1080,7 @@ strong {
     padding-top: 0; }
   .award-qualities h2 {
     font-family: "Lato", sans-serif;
-    color: #022601;
+    color: #fff;
     font-size: 2rem;
     letter-spacing: 0;
     display: block;
@@ -1079,10 +1095,7 @@ strong {
 
 .award-cat {
   background-color: #f9faf9;
-  padding: 5rem 1rem; }
-  @media only screen and (min-width: 768px) {
-    .award-cat {
-      padding: 5rem; } }
+  padding: 7rem 1rem; }
   .award-cat ul li {
     font-family: "Lato", sans-serif;
     color: #022601;
