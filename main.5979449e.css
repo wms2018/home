@@ -1370,6 +1370,39 @@ strong {
     .icon-on-timeline {
       margin-left: 1rem; } }
 
+.wms {
+  padding: 8rem 3rem;
+  background-color: #f9faf9;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  margin: auto;
+  position: relative; }
+  @media only screen and (min-width: 768px) {
+    .wms {
+      max-width: 70rem; } }
+  .wms h2 {
+    font-family: "Lato", sans-serif;
+    color: #f2811d;
+    font-size: 2rem;
+    letter-spacing: 0;
+    display: block;
+    font-weight: 900;
+    animation: none;
+    padding: 4rem 0;
+    text-align: left; }
+  .wms p {
+    padding-bottom: 3rem; }
+  .wms a,
+  .wms a :link,
+  .wms a :visited,
+  .wms a :active,
+  .wms a :focus {
+    color: #f2811d; }
+
 body[data-aos-duration='50'] [data-aos], [data-aos][data-aos][data-aos-duration='50'] {
   transition-duration: 50ms; }
 
