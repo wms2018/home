@@ -328,6 +328,12 @@ a:hover {
   .c-btn--white::after {
     background-color: #fff; }
 
+.c-btn--secondary {
+  background-color: #f2811d;
+  color: #fff; }
+  .c-btn--secondary::after {
+    background-color: #f2811d; }
+
 .c-btn::after {
   content: "";
   display: inline-block;
@@ -1170,7 +1176,15 @@ strong {
     left: 50%;
     top: 30%;
     transform: translateX(-50%);
-    line-height: 4rem; }
+    line-height: 4rem;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center; }
     .sponsor-header__title h1::first-line {
       font-weight: 900; }
       @media only screen and (min-width: 768px) {
@@ -1397,13 +1411,14 @@ strong {
   .wms h2 {
     font-family: "Lato", sans-serif;
     color: #f2811d;
-    font-size: 2rem;
+    font-size: 1.5rem;
     letter-spacing: 0;
     display: block;
     font-weight: 900;
     animation: none;
     padding: 4rem 0;
-    text-align: left; }
+    text-align: left;
+    text-transform: uppercase; }
   .wms p {
     padding-bottom: 3rem; }
   .wms a,
@@ -1412,6 +1427,124 @@ strong {
   .wms a :active,
   .wms a :focus {
     color: #f2811d; }
+
+.medal__genesis {
+  padding: 8rem 6rem 2rem 6rem;
+  background-color: #f9faf9;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  margin: auto;
+  position: relative; }
+  @media only screen and (min-width: 768px) {
+    .medal__genesis {
+      max-width: 70rem; } }
+  .medal__genesis h2 {
+    font-family: "Lato", sans-serif;
+    color: #f2811d;
+    font-size: 1.5rem;
+    letter-spacing: 0;
+    display: block;
+    font-weight: 900;
+    animation: none;
+    padding: 4rem 0;
+    text-align: left;
+    text-transform: uppercase; }
+  .medal__genesis p {
+    padding-bottom: 3rem; }
+  .medal__genesis a,
+  .medal__genesis a :link,
+  .medal__genesis a :visited,
+  .medal__genesis a :active,
+  .medal__genesis a :focus {
+    color: #f2811d; }
+
+.medal__background {
+  padding: 2rem 6rem;
+  background-color: #f9faf9;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  margin: auto;
+  position: relative; }
+  @media only screen and (min-width: 768px) {
+    .medal__background {
+      max-width: 70rem; } }
+  .medal__background h2 {
+    font-family: "Lato", sans-serif;
+    color: #f2811d;
+    font-size: 1.5rem;
+    letter-spacing: 0;
+    display: block;
+    font-weight: 900;
+    animation: none;
+    padding: 4rem 0;
+    text-align: left;
+    text-transform: uppercase; }
+  .medal__background p {
+    padding-bottom: 3rem; }
+
+.medal__selection {
+  padding: 2rem 6rem;
+  background-color: #f9faf9;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  margin: auto;
+  position: relative; }
+  @media only screen and (min-width: 768px) {
+    .medal__selection {
+      max-width: 70rem; } }
+  .medal__selection h2 {
+    font-family: "Lato", sans-serif;
+    color: #f2811d;
+    font-size: 1.5rem;
+    letter-spacing: 0;
+    display: block;
+    font-weight: 900;
+    animation: none;
+    padding: 4rem 0;
+    text-align: left;
+    text-transform: uppercase; }
+  .medal__selection p {
+    padding-bottom: 3rem; }
+
+.medal__criteria {
+  padding: 2rem 6rem;
+  background-color: #f9faf9;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  margin: auto;
+  position: relative; }
+  @media only screen and (min-width: 768px) {
+    .medal__criteria {
+      max-width: 70rem; } }
+  .medal__criteria h2 {
+    font-family: "Lato", sans-serif;
+    color: #f2811d;
+    font-size: 1.5rem;
+    letter-spacing: 0;
+    display: block;
+    font-weight: 900;
+    animation: none;
+    padding: 4rem 0;
+    text-align: left;
+    text-transform: uppercase; }
+  .medal__criteria p {
+    padding-bottom: 3rem; }
 
 body[data-aos-duration='50'] [data-aos], [data-aos][data-aos][data-aos-duration='50'] {
   transition-duration: 50ms; }
