@@ -286,16 +286,35 @@ a:hover {
     .icon-lg {
       padding: 0.95rem 1.3rem; } }
 
-.carousel,
+/*.carousel,
 .carousel-item,
 .carousel-inner {
+    position: absolute;
+    height: 60vh;
+    @media only screen and (min-width: $tablet) {
+        height: 70vh;
+    }
+}*/
+.img-in-carousel-position {
   position: absolute;
   height: 60vh; }
   @media only screen and (min-width: 768px) {
-    .carousel,
-    .carousel-item,
-    .carousel-inner {
+    .img-in-carousel-position {
       height: 70vh; } }
+
+.text-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  height: 60vh;
+  margin: 0 5rem; }
+  @media only screen and (min-width: 768px) {
+    .text-container {
+      height: 70vh;
+      margin: 0; } }
 
 .c-btn, .c-btn:link, .c-btn:visited {
   text-transform: uppercase;
@@ -657,22 +676,24 @@ strong {
         width: 75%; } }
     .main-header__right-section__text {
       position: absolute;
-      top: 18%;
-      left: 50%;
-      transform: translateX(-50%); }
+      top: 0;
+      left: 0;
+      height: 60vh;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+          flex-direction: column;
+      -ms-flex-pack: center;
+          justify-content: center;
+      -ms-flex-align: center;
+          align-items: center;
+      width: 100%; }
       @media only screen and (min-width: 768px) {
         .main-header__right-section__text {
-          display: -ms-flexbox;
-          display: flex;
-          -ms-flex-direction: column;
-              flex-direction: column;
-          -ms-flex-pack: center;
-              justify-content: center;
           padding-left: 10rem;
-          width: 50rem;
+          width: 60%;
           top: 0;
           left: 0;
-          transform: inherit;
           height: 70vh; } }
 
 .venue {
@@ -1178,7 +1199,8 @@ strong {
   .sponsor-header__title {
     position: absolute;
     left: 50%;
-    top: 30%;
+    top: 25%;
+    width: 80%;
     transform: translateX(-50%);
     line-height: 4rem;
     display: -ms-flexbox;
@@ -1196,15 +1218,18 @@ strong {
           font-weight: 900; } }
     @media only screen and (min-width: 768px) {
       .sponsor-header__title {
+        width: auto;
         margin: 2rem 5rem;
         left: 5% !important;
         line-height: 5rem;
         transform: translateX(0); } }
     @media only screen and (min-width: 992px) {
       .sponsor-header__title {
+        width: auto;
         left: 5%; } }
     @media only screen and (min-width: 1400px) {
       .sponsor-header__title {
+        width: auto;
         left: 5%; } }
 
 .packages {
