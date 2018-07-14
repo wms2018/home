@@ -327,7 +327,8 @@ a:hover {
   font-size: 1.5rem;
   border: none;
   cursor: pointer;
-  margin: 2rem 0; }
+  margin: 2rem 0;
+  line-height: 4rem; }
 
 .c-btn:hover {
   transform: translateY(-3px);
@@ -343,15 +344,19 @@ a:hover {
 
 .c-btn--white {
   background-color: #fff;
-  color: #022601; }
+  color: #f2811d; }
   .c-btn--white::after {
     background-color: #fff; }
+  .c-btn--white:hover {
+    color: #f2811d; }
 
 .c-btn--secondary {
   background-color: #f2811d;
   color: #fff; }
   .c-btn--secondary::after {
     background-color: #f2811d; }
+  .c-btn--secondary:hover {
+    color: #fff; }
 
 .c-btn::after {
   content: "";
@@ -531,7 +536,9 @@ strong {
       font-weight: 700;
       animation: none;
       padding: 2rem 0;
-      text-align: left; }
+      text-align: left;
+      text-transform: uppercase;
+      letter-spacing: 0.5rem; }
     .footer header h3 {
       font-family: "Lato", sans-serif;
       color: rgba(249, 250, 249, 0.7);
@@ -1027,6 +1034,44 @@ strong {
     background-color: rgba(2, 38, 1, 0.2); }
   .quotes .carousel-indicators .active {
     background-color: rgba(2, 38, 1, 0.6); }
+
+.sponsors {
+  height: 35rem;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center; }
+  .sponsors__sponsor {
+    padding: 3rem;
+    height: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center; }
+    .sponsors__sponsor__type {
+      font-family: "Lato", sans-serif;
+      color: #022601;
+      font-size: 1.5rem;
+      letter-spacing: 0;
+      display: block;
+      font-weight: 300;
+      animation: none;
+      padding: 4rem 0;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 0.2rem; }
+    .sponsors__sponsor__img {
+      margin: auto;
+      height: 5rem !important;
+      display: block; }
 
 .award-quotes {
   padding: 5rem 3rem 9rem 3rem;
