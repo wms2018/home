@@ -1054,9 +1054,12 @@ strong {
       justify-content: center;
   -ms-flex-align: center;
       align-items: center;
-  width: 90%;
+  width: 85%;
   margin: 0 auto;
   background-color: #fff; }
+  @media only screen and (min-width: 768px) {
+    .sponsors {
+      width: 90%; } }
   .sponsors__sponsor {
     padding: 3rem;
     height: 100%; }
@@ -1419,20 +1422,22 @@ strong {
 .existing-sponsors {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (25%)[4];
-      grid-template-columns: repeat(4, 25%);
-  -ms-grid-rows: (20rem)[1];
-      grid-template-rows: repeat(1, 20rem);
+  grid-auto-columns: 100%;
+  grid-auto-rows: 25rem;
+  grid-auto-flow: row;
   margin: 0 auto;
-  padding-bottom: 5rem; }
+  padding-bottom: 5rem;
+  justify-self: center; }
+  @media only screen and (min-width: 768px) {
+    .existing-sponsors {
+      grid-auto-columns: 50%;
+      grid-auto-rows: 25rem;
+      grid-auto-flow: column; } }
   .existing-sponsors__sponsor {
-    margin: 0 auto;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (100%)[1];
-        grid-template-columns: repeat(1, 100%);
-    -ms-grid-rows: 25% 75%;
-        grid-template-rows: 25% 75%; }
+    grid-auto-columns: 100%;
+    grid-auto-rows: 40% 60%; }
     .existing-sponsors__sponsor__header {
       font-family: "Lato", sans-serif;
       color: rgba(242, 129, 29, 0.6);
@@ -1452,9 +1457,9 @@ strong {
     .existing-sponsors__sponsor__logo {
       max-height: 8rem;
       max-width: 12rem;
-      -ms-flex-item-align: center;
-          -ms-grid-row-align: center;
-          align-self: center;
+      -ms-flex-item-align: start;
+          -ms-grid-row-align: start;
+          align-self: start;
       justify-self: center; }
 
 .timeline {
