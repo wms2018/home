@@ -203,18 +203,20 @@
                     <div class=row>
                         <div class="col-sm-12 form-group">
                             <label for=message> Message:</label>
-                            <textarea class=form-control type=textarea id=message name=message maxlength=6000 rows=7></textarea>
+                            <textarea class=form-control type=textarea id=message name="text" maxlength=6000 rows=7></textarea>
                         </div>
                     </div>
-                    <!--<input type=hidden class=form-control id=to name=to value=chanda.b0@gmail.com> -->
-                    <div class=row>
+                    <input type=hidden class=form-control id=to name="to" value="biswajit.chanda@wms18.com"> 
+                    <input type=hidden class=form-control name="subject" value="Test Mail"> 
+                    <input type=hidden class=form-control name="html" value="<p>Test Mail<p>"> 
+                    <!--<div class=row>
                         <div class="col-sm-6 form-group">
                             <label for=name> Your Name:</label>
                             <input type=text class=form-control id=name name=name required> </div>
                         <div class="col-sm-6 form-group">
                             <label for=email> Email:</label>
                             <input type=email class=form-control id=email name=email required> </div>
-                    </div>
+                    </div> -->
                     <div class=row>
                         <div class="col-sm-12 form-group">
                             <button type=submit class="btn btn-lg btn-default pull-right">Send &rarr;</button>
