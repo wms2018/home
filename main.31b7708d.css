@@ -318,6 +318,7 @@ a:hover {
 
 .c-btn, .c-btn:link, .c-btn:visited {
   text-transform: uppercase;
+  letter-spacing: 0.3rem;
   text-decoration: none;
   padding: 0.5rem 2rem;
   display: inline-block;
@@ -344,11 +345,11 @@ a:hover {
 
 .c-btn--white {
   background-color: #fff;
-  color: #022601 !important; }
+  color: #f2811d !important; }
   .c-btn--white::after {
     background-color: #fff; }
   .c-btn--white:hover {
-    color: #022601 !important; }
+    color: #f2811d !important; }
 
 .c-btn--secondary {
   background-color: #f2811d;
@@ -1063,7 +1064,7 @@ strong {
     .sponsors {
       width: 90%; } }
   .sponsors__sponsor {
-    padding: 3rem;
+    padding: 1rem 3rem;
     height: 100%; }
     .sponsors__sponsor__type {
       font-family: "Lato", sans-serif;
@@ -1078,10 +1079,13 @@ strong {
       text-transform: uppercase;
       letter-spacing: 0.2rem; }
     .sponsors__sponsor__img {
-      margin: auto;
+      margin: 0 auto;
       display: block;
-      max-height: 8rem;
-      max-width: 15rem; }
+      max-height: 10rem;
+      max-width: 15rem;
+      transition: all 0.3s; }
+      .sponsors__sponsor__img:hover {
+        transform: scale(1.1); }
 
 .award-quotes {
   padding: 5rem 3rem 9rem 3rem;
@@ -1465,19 +1469,18 @@ label:focus,
   color: #f2811d; }
 
 .existing-sponsors {
+  /* Grid Fallback */
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  /* Supports Grid */
   display: -ms-grid;
   display: grid;
-  grid-auto-columns: 100%;
-  grid-auto-rows: 20rem;
-  grid-auto-flow: row;
-  margin: 5rem auto;
-  justify-self: center;
-  padding: 5 rem auto; }
-  @media only screen and (min-width: 768px) {
-    .existing-sponsors {
-      grid-auto-columns: 50%;
-      grid-auto-rows: 25rem;
-      grid-auto-flow: column; } }
+  -ms-grid-columns: (minmax(35rem, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(35rem, 1fr));
+  grid-auto-rows: minmax(30rem, auto);
+  grid-gap: 1em; }
   .existing-sponsors__sponsor {
     display: -ms-grid;
     display: grid;
@@ -1495,17 +1498,19 @@ label:focus,
       text-align: left;
       letter-spacing: 0.3rem;
       text-transform: uppercase;
-      -ms-flex-item-align: start;
-          -ms-grid-row-align: start;
-          align-self: start;
+      -ms-flex-item-align: center;
+          -ms-grid-row-align: center;
+          align-self: center;
       justify-self: center; }
     .existing-sponsors__sponsor__logo {
-      max-height: 8rem;
+      max-height: 10rem;
       max-width: 12rem;
       -ms-flex-item-align: start;
-          -ms-grid-row-align: start;
-          align-self: start;
-      justify-self: center; }
+          align-self: flex-start;
+      justify-self: center;
+      transition: all 0.3s; }
+      .existing-sponsors__sponsor__logo:hover {
+        transform: scale(1.3); }
 
 .timeline {
   position: relative;
