@@ -196,7 +196,7 @@ a:hover {
 
 .title--page-h1--light-center {
   font-family: "Lato", sans-serif;
-  color: #ff8000;
+  color: #e88c30;
   font-size: 2rem;
   letter-spacing: 0;
   display: block;
@@ -330,7 +330,7 @@ a:hover {
   cursor: pointer;
   margin: 2rem 0;
   line-height: 4rem;
-  font-weight: 700; }
+  font-weight: 400; }
 
 .c-btn:hover {
   transform: translateY(-3px);
@@ -346,18 +346,26 @@ a:hover {
 
 .c-btn--white {
   background-color: #fff;
-  color: #ff8000 !important; }
+  color: #e88c30 !important; }
   .c-btn--white::after {
     background-color: #fff; }
   .c-btn--white:hover {
-    color: #ff8000 !important; }
+    color: #e88c30 !important; }
 
 .c-btn--secondary {
-  background-color: #ff8000;
+  background-color: #e88c30;
   color: #fff; }
   .c-btn--secondary::after {
-    background-color: #ff8000; }
+    background-color: #e88c30; }
   .c-btn--secondary:hover {
+    color: #fff; }
+
+.c-btn--primary {
+  background-color: #fff;
+  color: #022601 !important; }
+  .c-btn--primary::after {
+    background-color: #fff; }
+  .c-btn--primary:hover {
     color: #fff; }
 
 .c-btn::after {
@@ -376,13 +384,13 @@ strong {
   font-weight: 700; }
 
 .link-regular {
-  color: #ff8000;
+  color: #e88c30;
   text-align: right;
   display: block;
   font-size: 1.5rem; }
 
 .link-more {
-  color: #ff8000;
+  color: #e88c30;
   display: inline;
   font-size: 1.6rem; }
 
@@ -397,7 +405,7 @@ strong {
 
 .dropcap {
   font-size: 5rem;
-  color: #ff8000;
+  color: #e88c30;
   float: left;
   padding: 1.2rem 1rem 0.5rem 3rem;
   font-family: "Lato";
@@ -428,9 +436,12 @@ strong {
     .for-mobile {
       display: none !important; } }
 
+figure .hero-1 {
+  background-color: #1f1813; }
+
 .c-navbar {
   transition: all 0.5s;
-  border-top: solid 6px #ff8000;
+  border-top: solid 6px #e88c30;
   background-color: transparent;
   position: absolute;
   top: 0;
@@ -445,7 +456,7 @@ strong {
     .c-navbar__sticky a {
       color: #022601 !important; }
       .c-navbar__sticky a:before {
-        background-color: #ff8000 !important; }
+        background-color: #e88c30 !important; }
   .c-navbar ul li {
     display: none; }
     @media only screen and (min-width: 768px) {
@@ -489,7 +500,7 @@ strong {
       .c-navbar__tab-menu-btn {
         display: block; } }
   .c-navbar__mobile-menu {
-    border-bottom: solid 2px #ff8000; }
+    border-bottom: solid 2px #e88c30; }
     .c-navbar__mobile-menu ul li {
       display: block;
       height: 6rem;
@@ -499,7 +510,7 @@ strong {
       color: #022601;
       border-left: solid 2px #fff; }
       .c-navbar__mobile-menu ul li:hover {
-        border-left: solid 2px #ff8000;
+        border-left: solid 2px #e88c30;
         background: #022601;
         color: #fff; }
         .c-navbar__mobile-menu ul li:hover a {
@@ -525,7 +536,7 @@ strong {
   .c-navbar__mob-menu-btn-scroll .hamburger-inner,
   .c-navbar__mob-menu-btn-scroll .hamburger-inner::before,
   .c-navbar__mob-menu-btn-scroll .hamburger-inner::after {
-    background: #ff8000; }
+    background: #e88c30; }
 
 .footer {
   position: relative;
@@ -538,7 +549,7 @@ strong {
     padding: 6rem; }
     .footer header h2 {
       font-family: "Lato", sans-serif;
-      color: #ff8000;
+      color: #e88c30;
       font-size: 1.3rem;
       letter-spacing: 0;
       display: block;
@@ -581,7 +592,7 @@ strong {
     .footer header a :visited,
     .footer header a :active,
     .footer header a :focus {
-      color: #ff8000; }
+      color: #e88c30; }
   .footer footer {
     padding: 2rem 6rem;
     background: #000; }
@@ -609,7 +620,7 @@ strong {
       .main-header__left-section {
         height: 70vh;
         width: 25%;
-        background-color: #ff8000; } }
+        background-color: #e88c30; } }
     @media only screen and (min-width: 0) {
       .main-header__left-section__logo {
         height: 5rem; } }
@@ -633,7 +644,9 @@ strong {
       -webkit-backface-visibility: hidden;
               backface-visibility: hidden;
       background-attachment: fixed;
-      background-image: url(be7cd202b8ff386d431c3d1111267143.jpg); }
+      mix-blend-mode: lighten;
+      background-image: url(be7cd202b8ff386d431c3d1111267143.jpg);
+      filter: grayscale(50%); }
       @media only screen and (min-width: 768px) {
         .main-header__right-section__hero-image {
           background-image: url(b7e10d816a183cc2e0eb07eea17920a3.png); } }
@@ -647,6 +660,7 @@ strong {
       -webkit-backface-visibility: hidden;
               backface-visibility: hidden;
       background-attachment: fixed;
+      mix-blend-mode: lighten;
       background-image: linear-gradient(120deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%), url(0b270e040d0c66bae6e7eb086532dec5.jpg); }
       @media only screen and (min-width: 768px) {
         .main-header__right-section__hero-image-1 {
@@ -661,6 +675,7 @@ strong {
       -webkit-backface-visibility: hidden;
               backface-visibility: hidden;
       background-attachment: fixed;
+      mix-blend-mode: lighten;
       background-image: linear-gradient(120deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%), url(7d7312d63b22c7009ff29a3f1ce630a3.jpg); }
       @media only screen and (min-width: 768px) {
         .main-header__right-section__hero-image-2 {
@@ -674,7 +689,7 @@ strong {
         width: 100%;
         z-index: 50;
         background-color: transparent;
-        background-image: linear-gradient(135deg, #ff8000 50%, rgba(255, 255, 255, 0) 50%), linear-gradient(45deg, #ff8000 50%, rgba(255, 255, 255, 0) 50%);
+        background-image: linear-gradient(135deg, #e88c30 50%, rgba(255, 255, 255, 0) 50%), linear-gradient(45deg, #e88c30 50%, rgba(255, 255, 255, 0) 50%);
         background-repeat: repeat-y;
         background-position: top left, top left, bottom left, bottom left;
         background-size: 2rem 2rem, 2rem 2rem, 2rem 2rem, 2rem 2rem; } }
@@ -801,7 +816,7 @@ strong {
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18); }
     .schedule__container__header {
       font-family: "Lato", sans-serif;
-      color: #ff8000;
+      color: #e88c30;
       font-size: 1.5rem;
       letter-spacing: 0;
       display: block;
@@ -888,7 +903,7 @@ strong {
       margin: auto; }
       .speakers__container__speaker-list__header {
         font-family: "Lato", sans-serif;
-        color: #ff8000;
+        color: #e88c30;
         font-size: 1.5rem;
         letter-spacing: 0;
         display: block;
@@ -1144,7 +1159,7 @@ strong {
     text-align: center; }
 
 .award-def {
-  background-color: #ff8000;
+  background-color: #e88c30;
   padding: 5rem 3rem 9rem 3rem;
   line-height: 3rem;
   display: -ms-flexbox;
@@ -1227,7 +1242,7 @@ strong {
     padding-top: 0; }
   .award-cat h2 {
     font-family: "Lato", sans-serif;
-    color: #ff8000;
+    color: #e88c30;
     font-size: 1.5rem;
     letter-spacing: 0;
     display: block;
@@ -1267,6 +1282,7 @@ strong {
     -webkit-backface-visibility: hidden;
             backface-visibility: hidden;
     background-attachment: fixed;
+    mix-blend-mode: lighten;
     background-image: url(be7cd202b8ff386d431c3d1111267143.jpg); }
     @media only screen and (min-width: 768px) {
       .sponsor-header__hero-image {
@@ -1345,7 +1361,7 @@ strong {
       font-size: 2rem;
       letter-spacing: 0;
       display: block;
-      font-weight: 700;
+      font-weight: 300;
       animation: none;
       padding: 1rem 0;
       text-align: right;
@@ -1360,7 +1376,7 @@ strong {
           font-size: 2rem;
           letter-spacing: 0;
           display: block;
-          font-weight: 700;
+          font-weight: 300;
           animation: none;
           padding: 1rem 0;
           text-align: right;
@@ -1405,7 +1421,6 @@ strong {
       letter-spacing: 0.3rem;
       word-spacing: 0.5rem; }
   .packages__features {
-    border-top: solid 6px #ff8000;
     border-radius: 1rem;
     position: relative;
     padding: 15rem 5rem 5rem 5rem;
@@ -1420,7 +1435,7 @@ strong {
         padding: 15rem 5rem 5rem 10rem; } }
     .packages__features__heading {
       font-family: "Lato", sans-serif;
-      color: #ff8000;
+      color: #e88c30;
       font-size: 2rem;
       letter-spacing: 0;
       display: block;
@@ -1432,7 +1447,7 @@ strong {
       text-transform: uppercase;
       letter-spacing: 0.5rem;
       word-spacing: 1rem;
-      border-bottom: solid #ff8000 2px;
+      border-bottom: solid #e88c30 2px;
       padding-bottom: 2rem;
       margin-bottom: 2rem; }
     .packages__features ul {
@@ -1443,7 +1458,7 @@ strong {
       display: none; }
 
 .modal-title {
-  color: #ff8000 !important;
+  color: #e88c30 !important;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   font-weight: 400;
@@ -1482,7 +1497,7 @@ label:focus,
   box-shadow: none !important; }
 
 .required {
-  color: #ff8000; }
+  color: #e88c30; }
 
 .existing-sponsors {
   /* Grid Fallback */
@@ -1504,7 +1519,7 @@ label:focus,
     grid-auto-rows: 40% 60%; }
     .existing-sponsors__sponsor__header {
       font-family: "Lato", sans-serif;
-      color: rgba(255, 128, 0, 0.6);
+      color: rgba(232, 140, 48, 0.6);
       font-size: 1.5rem;
       letter-spacing: 0;
       display: block;
@@ -1587,7 +1602,7 @@ label:focus,
 
 .submit-button, .submit-button:link, .submit-button:visited {
   color: #fff;
-  background-color: #ff8000;
+  background-color: #e88c30;
   font-size: 1.5rem;
   border-radius: 2px;
   margin: 2rem;
@@ -1632,7 +1647,7 @@ label:focus,
       max-width: 70rem; } }
   .wms h2 {
     font-family: "Lato", sans-serif;
-    color: #ff8000;
+    color: #e88c30;
     font-size: 1.5rem;
     letter-spacing: 0;
     display: block;
@@ -1649,7 +1664,7 @@ label:focus,
   .wms a :visited,
   .wms a :active,
   .wms a :focus {
-    color: #ff8000; }
+    color: #e88c30; }
 
 .medal__genesis {
   padding: 8rem 6rem 2rem 6rem;
@@ -1667,7 +1682,7 @@ label:focus,
       max-width: 70rem; } }
   .medal__genesis h2 {
     font-family: "Lato", sans-serif;
-    color: #ff8000;
+    color: #e88c30;
     font-size: 1.5rem;
     letter-spacing: 0;
     display: block;
@@ -1684,7 +1699,7 @@ label:focus,
   .medal__genesis a :visited,
   .medal__genesis a :active,
   .medal__genesis a :focus {
-    color: #ff8000; }
+    color: #e88c30; }
 
 .medal__background {
   padding: 2rem 6rem;
@@ -1702,7 +1717,7 @@ label:focus,
       max-width: 70rem; } }
   .medal__background h2 {
     font-family: "Lato", sans-serif;
-    color: #ff8000;
+    color: #e88c30;
     font-size: 1.5rem;
     letter-spacing: 0;
     display: block;
@@ -1731,7 +1746,7 @@ label:focus,
       max-width: 70rem; } }
   .medal__selection h2 {
     font-family: "Lato", sans-serif;
-    color: #ff8000;
+    color: #e88c30;
     font-size: 1.5rem;
     letter-spacing: 0;
     display: block;
@@ -1760,7 +1775,7 @@ label:focus,
       max-width: 70rem; } }
   .medal__criteria h2 {
     font-family: "Lato", sans-serif;
-    color: #ff8000;
+    color: #e88c30;
     font-size: 1.5rem;
     letter-spacing: 0;
     display: block;
