@@ -21,7 +21,7 @@ body {
   font-size: 1.5rem;
   padding: 0;
   line-height: 3rem;
-  background: #f9faf9;
+  background: #e5ebe5;
   color: #022601;
   padding: 0;
   animation: body-animation 2s ease;
@@ -207,7 +207,7 @@ a:hover {
 
 .title--page-h3 {
   font-family: "Lato", sans-serif;
-  color: #f9faf9;
+  color: #e5ebe5;
   font-size: 1.5rem;
   letter-spacing: 0;
   display: block;
@@ -540,7 +540,7 @@ figure .hero-1 {
 
 .footer {
   position: relative;
-  color: #f9faf9;
+  color: #e5ebe5;
   font-weight: 300;
   font-size: 1.5rem;
   background: #1a1a1a;
@@ -562,7 +562,7 @@ figure .hero-1 {
       line-height: 2.5rem; }
     .footer header h3 {
       font-family: "Lato", sans-serif;
-      color: rgba(249, 250, 249, 0.7);
+      color: rgba(229, 235, 229, 0.7);
       font-size: 1.5rem;
       letter-spacing: 0;
       display: block;
@@ -573,7 +573,7 @@ figure .hero-1 {
       padding-bottom: 0.5rem; }
     .footer header h4 {
       font-family: "Lato", sans-serif;
-      color: rgba(249, 250, 249, 0.7);
+      color: rgba(229, 235, 229, 0.7);
       font-size: 1.5rem;
       letter-spacing: 0;
       display: block;
@@ -730,7 +730,7 @@ figure .hero-1 {
 
 .venue {
   min-height: 30vh;
-  background-color: #f9faf9;
+  background-color: #e5ebe5;
   position: relative;
   padding: 0; }
   .venue .c-row {
@@ -764,7 +764,7 @@ figure .hero-1 {
             height: 100%;
             width: 100%;
             background-color: transparent;
-            background-image: linear-gradient(135deg, #f9faf9 50%, rgba(255, 255, 255, 0) 50%), linear-gradient(45deg, #f9faf9 50%, rgba(255, 255, 255, 0) 50%);
+            background-image: linear-gradient(135deg, #e5ebe5 50%, rgba(255, 255, 255, 0) 50%), linear-gradient(45deg, #e5ebe5 50%, rgba(255, 255, 255, 0) 50%);
             background-repeat: repeat-y;
             background-position: top left, top left, bottom left, bottom left;
             background-size: 2rem 2rem, 2rem 2rem, 2rem 2rem, 2rem 2rem; }
@@ -809,11 +809,10 @@ figure .hero-1 {
     .schedule {
       padding: 5rem; } }
   .schedule__container {
-    background: #f9faf9;
+    background: #e5ebe5;
     position: relative;
     margin-bottom: 0;
-    padding: 4rem 2rem 8rem 2rem;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18); }
+    padding: 4rem 2rem 8rem 2rem; }
     .schedule__container__header {
       font-family: "Lato", sans-serif;
       color: #e88c30;
@@ -895,7 +894,7 @@ figure .hero-1 {
     .speakers {
       padding: 5rem; } }
   .speakers__container {
-    background: #f9faf9;
+    background: #e5ebe5;
     margin-bottom: 5rem;
     padding: 4rem 2rem 8rem 2rem;
     box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2); }
@@ -982,11 +981,11 @@ figure .hero-1 {
 
 .topics {
   background-image: linear-gradient(135deg, #3e5902 0%, #f2b035 100%);
-  color: #f9faf9;
+  color: #e5ebe5;
   padding: 8rem 0 5rem 0; }
   .topics__content--1 {
     font-family: "Lato", sans-serif;
-    color: #f9faf9;
+    color: #e5ebe5;
     font-size: 2rem;
     letter-spacing: 0;
     display: block;
@@ -1001,7 +1000,7 @@ figure .hero-1 {
         padding-left: 5rem; } }
   .topics__content--2 {
     font-family: "Lato", sans-serif;
-    color: #f9faf9;
+    color: #e5ebe5;
     font-size: 2rem;
     letter-spacing: 0;
     display: block;
@@ -1016,7 +1015,7 @@ figure .hero-1 {
         padding-left: 7rem; } }
   .topics__content--3 {
     font-family: "Lato", sans-serif;
-    color: #f9faf9;
+    color: #e5ebe5;
     font-size: 2rem;
     letter-spacing: 0;
     display: block;
@@ -1047,7 +1046,7 @@ figure .hero-1 {
 
 .quotes {
   padding: 3rem 0;
-  background: #f9faf9; }
+  background: #e5ebe5; }
   .quotes__quote {
     font-family: "Lato", sans-serif;
     color: #022601;
@@ -1120,7 +1119,7 @@ figure .hero-1 {
 
 .award-quotes {
   padding: 5rem 3rem 9rem 3rem;
-  background: #f9faf9;
+  background: #e5ebe5;
   line-height: 3rem;
   max-width: 95%;
   margin: auto;
@@ -1133,6 +1132,9 @@ figure .hero-1 {
   @media only screen and (min-width: 768px) {
     .award-quotes {
       max-width: 70%; } }
+  @media only screen and (min-width: 992px) {
+    .award-quotes {
+      max-width: 60rem; } }
   .award-quotes__icon {
     margin: 2rem auto;
     height: 10rem; }
@@ -1173,7 +1175,7 @@ figure .hero-1 {
     height: 10rem; }
   .award-def__definition {
     font-family: "Lato", sans-serif;
-    color: #f9faf9;
+    color: #e5ebe5;
     font-size: 1.5rem;
     letter-spacing: 0;
     display: block;
@@ -1186,13 +1188,19 @@ figure .hero-1 {
     @media only screen and (min-width: 768px) {
       .award-def__definition {
         max-width: 70%; } }
+    @media only screen and (min-width: 992px) {
+      .award-def__definition {
+        max-width: 60rem; } }
 
 .award-qualities {
   background-color: #3e5902;
   padding: 7rem 1rem; }
+  @media only screen and (min-width: 992px) {
+    .award-qualities {
+      padding: 7rem 15rem; } }
   .award-qualities ul li {
     font-family: "Lato", sans-serif;
-    color: #fff;
+    color: #bcd2bc;
     font-size: 1.5rem;
     letter-spacing: 0;
     display: block;
@@ -1201,7 +1209,7 @@ figure .hero-1 {
     padding: 1rem 5rem;
     text-align: left;
     padding: 2rem;
-    background-image: url(10124799dd8a11c9a316d6147ad1358e.png);
+    background-image: url(898d6e09120a11ebb7e8df08cd55de51.png);
     background-repeat: no-repeat;
     padding-left: 5rem;
     padding-top: 0; }
@@ -1223,8 +1231,11 @@ figure .hero-1 {
     padding: 5rem; }
 
 .award-cat {
-  background-color: #f9faf9;
+  background-color: #e5ebe5;
   padding: 7rem 1rem; }
+  @media only screen and (min-width: 992px) {
+    .award-cat {
+      padding: 7rem 15rem; } }
   .award-cat ul li {
     font-family: "Lato", sans-serif;
     color: #022601;
@@ -1236,7 +1247,7 @@ figure .hero-1 {
     padding: 1rem 5rem;
     text-align: left;
     padding: 2rem;
-    background-image: url(10124799dd8a11c9a316d6147ad1358e.png);
+    background-image: url(3222e7c5759cca60beffbf4f0e70622f.png);
     background-repeat: no-repeat;
     padding-left: 5rem;
     padding-top: 0; }
@@ -1261,7 +1272,8 @@ figure .hero-1 {
   position: relative;
   width: 100%;
   height: 60vh;
-  text-align: right; }
+  text-align: right;
+  background-color: #212225; }
   .sponsor-header figure {
     margin: 0; }
   @media only screen and (min-width: 768px) {
@@ -1283,7 +1295,8 @@ figure .hero-1 {
             backface-visibility: hidden;
     background-attachment: fixed;
     mix-blend-mode: lighten;
-    background-image: url(be7cd202b8ff386d431c3d1111267143.jpg); }
+    background-image: url(be7cd202b8ff386d431c3d1111267143.jpg);
+    filter: grayscale(50%); }
     @media only screen and (min-width: 768px) {
       .sponsor-header__hero-image {
         background-image: url(b7e10d816a183cc2e0eb07eea17920a3.png); } }
@@ -1324,7 +1337,7 @@ figure .hero-1 {
         left: 5%; } }
 
 .packages {
-  background: #f9faf9;
+  background: #e5ebe5;
   width: 100%;
   padding: 8rem 0; }
   .packages ul li {
@@ -1571,7 +1584,7 @@ label:focus,
   position: absolute;
   width: 2.5rem;
   height: 2.5rem;
-  background-color: #f9faf9;
+  background-color: #e5ebe5;
   top: 1.5rem;
   border-radius: 50%;
   z-index: 1;
@@ -1633,7 +1646,7 @@ label:focus,
 
 .wms {
   padding: 8rem 6rem;
-  background-color: #f9faf9;
+  background-color: #e5ebe5;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
@@ -1668,7 +1681,7 @@ label:focus,
 
 .medal__genesis {
   padding: 8rem 6rem 2rem 6rem;
-  background-color: #f9faf9;
+  background-color: #e5ebe5;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
@@ -1703,7 +1716,7 @@ label:focus,
 
 .medal__background {
   padding: 2rem 6rem;
-  background-color: #f9faf9;
+  background-color: #e5ebe5;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
@@ -1732,7 +1745,7 @@ label:focus,
 
 .medal__selection {
   padding: 2rem 6rem;
-  background-color: #f9faf9;
+  background-color: #e5ebe5;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
@@ -1761,7 +1774,7 @@ label:focus,
 
 .medal__criteria {
   padding: 2rem 6rem;
-  background-color: #f9faf9;
+  background-color: #e5ebe5;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
@@ -1785,6 +1798,16 @@ label:focus,
     text-align: left;
     text-transform: uppercase;
     letter-spacing: 0.2rem; }
+  .medal__criteria h3 {
+    font-family: "Lato", sans-serif;
+    color: #022601;
+    font-size: 1.5rem;
+    letter-spacing: 0;
+    display: block;
+    font-weight: 900;
+    animation: none;
+    padding: 2rem 0;
+    text-align: left; }
   .medal__criteria p {
     padding-bottom: 3rem; }
   .medal__criteria ul li {
