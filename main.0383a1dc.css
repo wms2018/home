@@ -754,7 +754,7 @@ a {
     height: 100%; }
     .venue .c-row .col-1-of-2 {
       margin-bottom: 0;
-      padding: 3rem 2rem;
+      padding: 3rem 4rem;
       display: -ms-flexbox;
       display: flex;
       -ms-flex-direction: column;
@@ -1454,7 +1454,8 @@ a {
 
 .committee div {
   margin-left: 6rem;
-  margin-bottom: 6rem; }
+  margin-bottom: 6rem;
+  margin-right: 6rem; }
   @media only screen and (min-width: 992px) {
     .committee div {
       margin-left: 2rem; } }
