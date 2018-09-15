@@ -549,6 +549,9 @@ a {
   .c-navbar__mob-menu-btn-scroll .hamburger-inner::before,
   .c-navbar__mob-menu-btn-scroll .hamburger-inner::after {
     background: #e88c30; }
+  @media only screen and (min-width: 768px) {
+    .c-navbar__mob-menu-btn-scroll {
+      display: none !important; } }
 
 .footer {
   position: relative;
@@ -1402,13 +1405,16 @@ a {
 
 .side-content {
   padding-bottom: 5rem; }
-  @media only screen and (min-width: 992px) {
-    .side-content__menu {
-      position: fixed;
-      top: 10rem;
-      left: 0;
-      bottom: 100vh;
-      width: 24%; } }
+  .side-content__menu {
+    padding-top: 5rem; }
+    @media only screen and (min-width: 992px) {
+      .side-content__menu {
+        position: fixed;
+        top: 10rem;
+        left: 0;
+        bottom: 100vh;
+        width: 24%;
+        padding-top: inherit; } }
   .side-content h2 {
     font-family: "Lato", sans-serif;
     color: #e88c30;
