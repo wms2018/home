@@ -1435,9 +1435,15 @@ a {
     color: #e4ebe4;
     padding: 1rem 2rem;
     margin: 1rem 2rem;
-    transition: all 0.5s; }
+    transition: all 0.5s;
+    position: relative;
+    background: linear-gradient(to right, #e88c30 34%, #212225 65%);
+    background-size: 300% 100%;
+    background-position: right bottom; }
     .side-content a:hover {
-      background-color: #e88c30; }
+      background-position: left bottom; }
+  .side-content__selected-border {
+    border-left: solid 8px #e88c30 !important; }
 
 .sponsor-header {
   position: relative;
