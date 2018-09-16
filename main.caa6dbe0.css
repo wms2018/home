@@ -1716,6 +1716,7 @@ label:focus,
   color: #e88c30; }
 
 .existing-sponsors {
+  margin: 0 6rem;
   /* Grid Fallback */
   display: -ms-flexbox;
   display: flex;
